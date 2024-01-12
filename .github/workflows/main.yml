@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '55 14 * * *' # Run at 7:00 UTC, which is 15:00 in Beijing time
+    - cron: '0 15 * * *' # Run at 7:00 UTC, which is 15:00 in Beijing time
 
 jobs:
   run-script:
