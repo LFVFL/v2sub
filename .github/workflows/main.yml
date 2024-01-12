@@ -1,0 +1,32 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # Run at 7:00 UTC, which is 15:00 in Beijing time
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Run script
+        run: |
+          python src/main.py
+      - name: Save result
+        run: |
+          cp v2rayse_sub.txt $GITHUB_WORKSPACE
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update result"
+          git push
