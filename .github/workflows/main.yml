@@ -22,7 +22,7 @@ jobs:
           python src/main.py
       - name: Save result
         run: |
-          cp v2rayse_sub.txt $GITHUB_WORKSPACE
+          cp -f v2rayse_sub.txt $GITHUB_WORKSPACE
       - name: Commit and push changes
         run: |
           git config user.name github-actions
