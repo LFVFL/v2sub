@@ -20,9 +20,6 @@ jobs:
       - name: Run script
         run: |
           python src/main.py
-      - name: Save result
-        run: |
-          cp -f v2rayse_sub.txt $GITHUB_WORKSPACE
       - name: Commit and push changes
         run: |
           git config user.name github-actions
