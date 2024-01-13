@@ -1,5 +1,6 @@
 # 导入requests库，用于发送HTTP请求
 import requests
+import base64
 
 
 # 定义一个函数，用于从给定的url中提取前缀为"https://oss.v2rayse.com/proxies/data/"的链接
@@ -38,10 +39,15 @@ def merge_contents(links, filename):
         # 如果响应状态码为200，表示请求成功
         if response.status_code == 200:
             # 获取响应内容的文本
-            text = response.text
+            text = response.content.decode()
+            if "优质订阅" not in text:
+                # 进行解码，得到字节串
+                decoded = base64.urlsafe_b64decode(text)
+                # 将字节串转换为字符串
+                text = decoded.decode()
+            print(text)
             # 将文本添加到合并的内容中，用换行符分隔
             contents += text + "\n"
-        # 否则，表示请求失败，抛出异常
         else:
             raise Exception(f"请求失败，状态码为{response.status_code}")
     # 打开一个文件，用写入模式
