@@ -54,7 +54,10 @@ def merge_contents(links, filename):
     with open(filename, "w", encoding="utf-8") as f:
         # 将合并的内容写入到文件中
         f.write(contents)
-
+    with open('v2sub64.txt', "w", encoding="utf-8") as j:
+        b64context = base64.urlsafe_b64encode(contents.encode())
+        # 将合并的内容写入到文件中
+        j.write(b64context.decode())
 
 # 定义一个主函数，用于执行程序的逻辑
 def main():
