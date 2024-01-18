@@ -50,6 +50,19 @@ def merge_contents(links, filename):
             contents += text + "\n"
         else:
             raise Exception(f"请求失败，状态码为{response.status_code}")
+    alvin999_response = requests.get("https://mareep.netlify.app/sub/shadowrocket_base64.txt")
+    # 如果响应状态码为200，表示请求成功
+    if alvin999_response.status_code == 200:
+        # 获取响应内容的文本
+        text = alvin999_response.content.decode()
+        decoded = base64.urlsafe_b64decode(text)
+        # 将字节串转换为字符串
+        text = decoded.decode()
+        print(text)
+        # 将文本添加到合并的内容中，用换行符分隔
+        contents += text
+    else:
+        raise Exception(f"请求失败，状态码为{alvin999_response.status_code}")
     # 打开一个文件，用写入模式
     with open(filename, "w", encoding="utf-8") as f:
         # 将合并的内容写入到文件中
@@ -58,6 +71,7 @@ def merge_contents(links, filename):
         b64context = base64.urlsafe_b64encode(contents.encode())
         # 将合并的内容写入到文件中
         j.write(b64context.decode())
+
 
 # 定义一个主函数，用于执行程序的逻辑
 def main():
