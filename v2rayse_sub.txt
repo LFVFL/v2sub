@@ -1,10 +1,9 @@
-vless://63925418-7ae3-4da1-9e73-fb3fc5af6fdb@51.159.103.141:12207?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM&sid=6ba85179e30d4fc2&sni=s0.awsstatic.com&serviceName=&path=&host=#France_vless_0
-vless://80b5b4de-0619-4ac2-b1ff-f2bcc697b641@109.104.152.4:16414?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE&sid=6ba85179e30d4fc2&sni=mensura.cdn-apple.com&serviceName=&path=&host=#United States_vless_0
-vless://8eb74635-0857-4673-9965-f6d928b420c9@108.181.5.130:20221?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU&sid=6ba85179e30d4fc2&sni=www.lovelive-anime.jp&serviceName=&path=&host=#United States_vless_0
-ssr://NjIuMjEwLjEwMy4xNDozMzMzMzphdXRoX2NoYWluX2E6ZHVtbXk6cGxhaW46Wkc5dVozUmhhWGRoYm1jdVkyOXQvP29iZnNwYXJhbT0mcHJvdG9wYXJhbT0mcmVtYXJrcz1zc3JfbWV0YV8xJnByb3RvcGFyYW09Jm9iZnNwYXJhbT0=
-ssr://MTA4LjE4MS4yLjE1NzoyMjIyMjphdXRoX2NoYWluX2E6ZHVtbXk6cGxhaW46Wkc5dVozUmhhWGRoYm1jdVkyOXQvP29iZnNwYXJhbT0mcHJvdG9wYXJhbT0mcmVtYXJrcz1zc3JfbWV0YV8yJnByb3RvcGFyYW09Jm9iZnNwYXJhbT0=
-hysteria://108.181.5.20:22881?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22881&obfs=&protocol=udp&fastopen=1#United States_hy_3
-vless://906d367a-a5d2-467c-b476-a29c79215003@108.181.2.156:19695?security=reality&allowInsecure0&flow=xtls-rprx-vision&type=tcp&fp=chrome&pbk=TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo&sid=6ba85179e30d4fc2&sni=lol.secure.dyn.riotcdn.net&serviceName=&path=&host=#United States_vless_4
+tuic://9ec44c8c-5dc0-4c92-a7ed-5422b0ac1913:dongtaiwang.com@109.104.152.4:443?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#United States_tuic_0
+tuic://0d9d053c-81c8-4f26-9b5c-dff313dfdd70:dongtaiwang.com@62.210.103.14:44556?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#France_tuic_1
+tuic://0d9d053c-81c8-4f26-9b5c-dff313dfdd70:dongtaiwang.com@62.210.103.14:44556?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#France_tuic_2
+tuic://0d9d053c-81c8-4f26-9b5c-dff313dfdd70:dongtaiwang.com@62.210.103.14:44556?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#France_tuic_3
+tuic://0d9d053c-81c8-4f26-9b5c-dff313dfdd70:dongtaiwang.com@62.210.103.14:44556?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#France_tuic_4
+tuic://0d9d053c-81c8-4f26-9b5c-dff313dfdd70:dongtaiwang.com@62.210.103.14:44556?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#France_tuic_5
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#Taiwan_hy_6
 hysteria2://dongtaiwang.com@51.158.54.46:44550?insecure=1&sni=bing.com&obfs=&obfs-password=#France_hy2_7
 hysteria2://d017e316-82cb-441c-8eea-7b5e9de64a20@45.150.165.84:8881?insecure=1&sni=&obfs=salamander&obfs-password=d017e316-82cb-441c-8eea-7b5e9de64a20#United States_hy2_8
