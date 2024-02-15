@@ -1,7 +1,7 @@
 hysteria2://dongtaiwang.com@64.31.55.30:20011?insecure=1&sni=bing.com&obfs=&obfs-password=#United States_hy2_0
 hysteria2://dongtaiwang.com@109.104.152.144:51100?insecure=1&sni=bing.com&obfs=&obfs-password=#United States_hy2_0
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.144:44411?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#United States_tuic_1
-tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:31102?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#United States_tuic_2
+hysteria2://dongtaiwang.com@109.104.152.101:16610?insecure=1&sni=bing.com&obfs=&obfs-password=#United States_hy2_2
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:22288?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#United States_tuic_3
 tuic://7bda06fd-e4af-4115-8aa3-f021832cfa78:dongtaiwang.com@109.104.152.101:31101?sni=&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=0#United States_tuic_4
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@198.41.193.226:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#None_vless_5
@@ -142,7 +142,7 @@ vless://95878aa5-a695-4b88-b502-55c05c998cf2@104.18.135.212:443?security=tls&all
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@104.19.246.22:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#None_vless_5
 vless://95878aa5-a695-4b88-b502-55c05c998cf2@172.64.164.162:443?security=tls&allowInsecure0&flow=&type=ws&fp=&pbk=&sid=&sni=lg1.dtku41.xyz&serviceName=&path=/ugrlws&host=#United States_vless_5
 hysteria://www2.dtku48.xyz:22334?peer=&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#Taiwan_hy_6
-hysteria2://dongtaiwang.com@51.158.54.46:44550?insecure=1&sni=bing.com&obfs=&obfs-password=#France_hy2_7
+hysteria2://dongtaiwang.com@51.159.77.153:33390?insecure=1&sni=bing.com&obfs=&obfs-password=#France_hy2_7
 hysteria2://d017e316-82cb-441c-8eea-7b5e9de64a20@45.150.165.84:8881?insecure=1&sni=&obfs=salamander&obfs-password=d017e316-82cb-441c-8eea-7b5e9de64a20#United States_hy2_8
 hysteria://www.dtku50.xyz:18470?peer=www.amazon.cn&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=18470&obfs=&protocol=udp&fastopen=1#Taiwan_hy_9
 aHR0cHM6Ly9kb25ndGFpd2FuZy5jb206ZG9uZ3RhaXdhbmcuY29tQG5haXZlMTkuY2ZjZG4zLnh5ejo0NDM=
